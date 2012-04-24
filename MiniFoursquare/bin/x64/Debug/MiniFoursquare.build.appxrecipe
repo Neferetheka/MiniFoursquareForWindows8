@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AERILYS</Machine>
+    <WindowsUser>Galaad</WindowsUser>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <Modified>2012-04-19T12:16:20.185</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\MiniFoursquare.exe">
+      <PackagePath>MiniFoursquare.exe</PackagePath>
+      <Modified>2012-04-24T12:42:57.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\MiniFoursquare.pdb">
+      <PackagePath>MiniFoursquare.pdb</PackagePath>
+      <Modified>2012-04-24T12:42:57.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
+      <PackagePath>Bing.Maps.winmd</PackagePath>
+      <Modified>2012-04-05T10:31:08.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.xml">
+      <PackagePath>Bing.Maps.xml</PackagePath>
+      <Modified>2012-04-05T10:31:08.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\Json45r3\Bin\Metro\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+      <Modified>2012-04-14T01:25:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\Json45r3\Bin\Metro\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2012-04-14T01:25:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\Json45r3\Bin\Metro\Newtonsoft.Json.pdb">
+      <PackagePath>Newtonsoft.Json.pdb</PackagePath>
+      <Modified>2012-04-14T01:25:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\x64\Bing.Maps.dll">
+      <PackagePath>Bing.Maps.dll</PackagePath>
+      <Modified>2012-04-05T10:31:07.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\circleImage-noalpha.png">
+      <PackagePath>Bing.Maps\circleImage-noalpha.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\circleImage.png">
+      <PackagePath>Bing.Maps\circleImage.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\CompassBackground.png">
+      <PackagePath>Bing.Maps\CompassBackground.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\CompassE.png">
+      <PackagePath>Bing.Maps\CompassE.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\CompassN.png">
+      <PackagePath>Bing.Maps\CompassN.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\CompassS.png">
+      <PackagePath>Bing.Maps\CompassS.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\CompassTick.png">
+      <PackagePath>Bing.Maps\CompassTick.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\CompassW.png">
+      <PackagePath>Bing.Maps\CompassW.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\dashedImage.png">
+      <PackagePath>Bing.Maps\dashedImage.png</PackagePath>
+      <Modified>2012-04-05T10:31:07.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC.ps">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader-downlevel.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader.ps">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader.ps</PackagePath>
+      <Modified>2012-04-05T10:31:07.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC.vs">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader-downlevel.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader.vs">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader.vs</PackagePath>
+      <Modified>2012-04-05T10:31:07.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\EnglishEntityNames.hlx">
+      <PackagePath>Bing.Maps\EnglishEntityNames.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\EntityLookup.hlx">
+      <PackagePath>Bing.Maps\EntityLookup.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\EntityNameLength.hlx">
+      <PackagePath>Bing.Maps\EntityNameLength.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\GermanicEntityNames.hlx">
+      <PackagePath>Bing.Maps\GermanicEntityNames.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\InvariantEntityNames.hlx">
+      <PackagePath>Bing.Maps\InvariantEntityNames.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\LatinEntityNames.hlx">
+      <PackagePath>Bing.Maps\LatinEntityNames.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\NameCount.hlx">
+      <PackagePath>Bing.Maps\NameCount.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\NameRoleLcid.hlx">
+      <PackagePath>Bing.Maps\NameRoleLcid.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\ScandinavianEntityNames.hlx">
+      <PackagePath>Bing.Maps\ScandinavianEntityNames.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shields202.hlx">
+      <PackagePath>Bing.Maps\Shields202.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shields244.hlx">
+      <PackagePath>Bing.Maps\Shields244.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Shields39.hlx">
+      <PackagePath>Bing.Maps\Shields39.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\SlavicEntityNames.hlx">
+      <PackagePath>Bing.Maps\SlavicEntityNames.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Streets202.hlx">
+      <PackagePath>Bing.Maps\Streets202.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Streets244.hlx">
+      <PackagePath>Bing.Maps\Streets244.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\Streets39.hlx">
+      <PackagePath>Bing.Maps\Streets39.hlx</PackagePath>
+      <Modified>2012-04-05T10:31:07.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\map.config">
+      <PackagePath>Bing.Maps\map.config</PackagePath>
+      <Modified>2012-04-05T10:31:07.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\commonconfiguration\neutral\Bing.Maps\style.MapStyle">
+      <PackagePath>Bing.Maps\style.MapStyle</PackagePath>
+      <Modified>2012-04-05T10:31:07.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\BlankPage.xaml">
+      <PackagePath>BlankPage.xaml</PackagePath>
+      <Modified>2012-04-24T12:39:12.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-04-19T11:55:50.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-04-19T12:01:47.073</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.Debug</Name>
+      <Version>11.0.0.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.Debug, MinVersion = 11.0.0.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.11.appx</AppxLocation>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.Debug</Name>
+      <Version>11.0.0.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.Debug, MinVersion = 11.0.0.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.11.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

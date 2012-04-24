@@ -1,0 +1,1 @@
+C:\Users\Galaad\Documents\Visual Studio 11\Projects\MiniFoursquare\MiniFoursquare\MiniFoursquare.csproj;x64

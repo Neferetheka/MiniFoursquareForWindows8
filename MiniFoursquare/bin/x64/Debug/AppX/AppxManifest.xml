@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="8aad1318-0b85-41b7-b9dc-984623433900" Publisher="CN=Galaad" Version="1.0.0.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>MiniFoursquare</DisplayName>
+    <PublisherDisplayName>Galaad</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>MiniFoursquare</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="MiniFoursquare.exe" EntryPoint="MiniFoursquare.App">
+      <VisualElements DisplayName="MiniFoursquare" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="MiniFoursquare" ForegroundText="light" BackgroundColor="#222222">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.VCLibs.110.Debug" MinVersion="11.0.0.0" />
+  </Dependencies>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Bing.Maps.dll</Path>
+        <ActivatableClass ActivatableClassId="Bing.Maps.Location" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LocationRect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.StringToLocationConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangeStartedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangeEndedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.TargetViewChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.TileDownloadCompletedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.CopyrightChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapStyleChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeLayer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeLayerCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapUIElementCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapTileLayer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapTileLayerCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Map" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapLayer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LocationCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapMultiPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapPolygon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapPolyline" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Pushpin" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.PushpinAutomationPeer" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+</Package>

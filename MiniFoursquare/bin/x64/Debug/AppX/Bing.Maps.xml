@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Bing.Maps</name>
+  </assembly>
+  <members>
+    <member name="N:Bing.Maps">
+      <summary>The Bing.Maps namespace contains the most commonly used classes of the Bing Maps Metro style apps API.</summary>
+    </member>
+    <member name="T:Bing.Maps.CopyrightChangedEventArgs">
+      <summary>
+        Contains the arguments for the CopyrightChanged event of the <see cref="T:Bing.Maps.Map"></see> class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.CopyrightChangedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.CopyrightChangedEventArgs"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.Location">
+      <summary>Contains the coordinate values of a location on the map.</summary>
+    </member>
+    <member name="M:Bing.Maps.Location.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.Location"></see> class with latitude and longitude values set to 0,0.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Location.#ctor(System.Double,System.Double)">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.Location"></see> class using the specified latitude and longitude values.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Location.#ctor(Bing.Maps.Location)">
+      <summary>
+        Creates a copy of the specified <see cref="T:Bing.Maps.Location"></see>.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Location.Latitude">
+      <summary>
+        Gets or sets the latitude of the location as degrees of latitude.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Location.Longitude">
+      <summary>
+        Gets or sets the longitude of the location as degrees of longitude.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Location.ToString">
+      <summary>
+        Converts the current location to a string.
+      </summary>
+      <returns>
+        Returns <see cref="T:System.String"></see>.
+      </returns>
+    </member>
+    <member name="T:Bing.Maps.LocationCollection">
+      <summary>
+        Contains a collection of <see cref="T:Bing.Maps.Location"></see> objects.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.LocationCollection"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationCollection.Size">
+      <summary>Gets the number of elements in the collection.</summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.Append(Bing.Maps.Location)">
+      <summary>
+        Appends the specified location to the end of the collection.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.Clear">
+      <summary>
+        Clears all locations from the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.First">
+      <summary>
+        Returns the first location in the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.GetAt(default.uint32)">
+      <summary>
+        Returns the location at the specified index in the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.GetMany(System.uint32,System.Array)">
+      <summary>
+        Populates items with LocationCollection elements starting at the specified index. Returns the number of items.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.GetView">
+      <summary>
+        Returns a view of the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.IndexOf(Bing.Maps.Location,default.uint32)">
+      <summary>
+        Populates index with the index of the specified location within the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.InsertAt(default.uint32,Bing.Maps.Location)">
+      <summary>
+        Inserts the specified location at the given index.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.RemoveAt(default.uint32)">
+      <summary>
+        Removes the location found at the specified index in the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.RemoveAtEnd">
+      <summary>
+        Removes the last location in the collection.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.ReplaceAll(System.Collections.Generic.IList&lt;T&gt;)">
+      <summary>
+        Replaces the locations in the collection with the specified items.
+      </summary>
+    </member>    
+    <member name="M:Bing.Maps.LocationCollection.SetAt(default.uint32,Bing.Maps.Location)">
+      <summary>
+        Set the location to the specified index.
+      </summary>
+    </member>
+<!--C# Collection Classes-->
+    <member name="M:Bing.Maps.LocationCollection.Add">
+      <summary>
+        Adds a location to the collection.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.Clear">
+      <summary>
+        Adds a location to the collection.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.Contains(Bing.Maps.Location)">
+      <summary>
+        Determines whether the collection contains a specific location.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.CopyTo(System.Array,System.Int32)">
+      <summary>
+        Copies the locations of a collection to an array, starting at a particular array index.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.IndexOf(Bing.Maps.Location)">
+      <summary>
+        Determines the index of a specific location in the collection.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.Insert(System.Int32,Bing.Maps.Location)">
+      <summary>
+        Inserts a location into the collection at the specified index.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.Remove(Bing.Maps.Location)">
+      <summary>
+        Removes the first occurence of a specific location from the collection.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationCollection.RemoveAt(System.Int32)">
+      <summary>
+        Removes the location at a specified index.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationCollection.Count">
+      <summary>
+        Gets the number of locations contained in the collection.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationCollection.IsReadOnly">
+      <summary>
+        Gets a value that determines whether the collection is read-only.
+      </summary>
+    </member>    
+    <member name="P:Bing.Maps.LocationCollection.this(System.Int32)">
+      <summary>
+        Gets or sets a location in the collection by accessing its zero-based index.
+      </summary>
+    </member>    
+<!--End C# Collection Classes-->
+
+    <member name="T:Bing.Maps.LocationRect">
+      <summary>
+        Represents a rectangular geographical region.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.Center">
+      <summary>
+        Gets or sets the center location of the location rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.East">
+      <summary>
+        Gets the longitude of the eastern border of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.Height">
+      <summary>
+        Gets or sets the height location of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.North">
+      <summary>
+        Gets the latitude of the northern border of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.Northwest">
+      <summary>
+        Gets the location of the northwest corner of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.South">
+      <summary>
+        Gets the latitude of the southern border of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.Southeast">
+      <summary>
+        Gets the location of the southeast corner of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.West">
+      <summary>
+        Gets the longitude of the western border of the rectangle.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.LocationRect.Width">
+      <summary>
+        Gets or sets the width of the rectangle, in degrees.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationRect.Contains(Bing.Maps.Location)">
+      <summary>
+        Returns a bool indicating whether the current location rectangle contains the specified location.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationRect.Intersects(Bing.Maps.LocationRect)">
+      <summary>
+        Returns a bool indicating whether the current location rectangle intersects with the specified location rectangle.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationRect.#ctor(Bing.Maps.Location,System.Double,System.Double)">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.LocationRect"></see> class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationRect.#ctor(Bing.Maps.LocationRect)">
+      <summary>
+        Makes a copy of an existing <see cref="T:Bing.Maps.LocationRect"></see> object.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.LocationRect.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.LocationRect"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.Map">
+      <summary>Represents a map. This class inherits from the Windows.UI.Xaml.Controls.Control class.</summary>
+    </member>
+    <member name="M:Bing.Maps.Map.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.Map"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.Bounds">
+      <summary>
+        Gets a rectangle that defines the map view.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.Center">
+      <summary>
+        Gets or sets the location of the center of the map.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.Children">
+      <summary>
+        Gets any UI elements that are children of the map control element.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.Credentials">
+      <summary>
+        Gets or sets the map credentials used to authenticate the map.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.Heading">
+      <summary>
+        Gets or sets the directional heading of the map. The heading is represented in geometric degrees with 0 or 360 = North, 90 = East, 180 = South, and 270 = West. You can set the heading by using the SetHeading method.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.MapType">
+      <summary>
+        Gets or sets the map type, or style.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.PreloadArea">
+      <summary>
+        Gets or sets how much map data beyond the current view to preload. On clients with limited bandwidth, this should be set to None.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.MetersPerPixel">
+      <summary>
+        Gets the current scale in meters per pixel of the center of the current map view.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.RotationEnabled">
+      <summary>
+        Gets whether map view rotation is enabled.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.ShapeLayers">
+      <summary>
+        Gets a collection of the map’s shape layers.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.ShowScaleBar">
+      <summary>
+        Gets or sets whether the scale bar is visible.
+
+        Default value: true
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.ShowTraffic">
+      <summary>
+        Gets or sets whether the scale bar is visible. The default value is true.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.TargetBounds">
+      <summary>
+        Gets the rectangle that defines the boundaries of the view to which the map is navigating.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.TargetCenter">
+      <summary>
+        Gets the location of the center of the view to which the map is navigating.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.TargetHeading">
+      <summary>
+        Gets the directional heading of the view to which the map is navigating.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.TargetZoomLevel">
+      <summary>
+        Gets the zoom level of the view to which the map is navigating.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.TileLayers">
+      <summary>
+        Gets a collection of the map’s tile layers.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Map.ZoomLevel">
+      <summary>
+        Gets or sets the zoom level of the map.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.GetCopyrightAsync">
+      <summary>
+        Begins an asynchronous operation to get the copyright string for the current view. The copyright string contains one or more lines of text separated by a carriage return and line feed.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.LocationToPixel(Bing.Maps.Location)">
+      <summary>
+        Returns an exception if the specified location was not successfully converted to a map screen pixel. This method will work on locations that are not currently in view and will return values outside of the visible map area in the range (0,0) to (ActualWidth,ActualHeight).
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.PixelToLocation(Windows.Foundation.Point)">
+      <summary>
+        Returns an exception if the specified map screen pixel was not successfully converted to a location. This method will work on locations that are not currently in view.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetHeading(System.Double)">
+      <summary>
+        Sets the directional heading of the map. The heading is represented in geometric degrees with 0 or 360 = North, 90 = East, 180 = South, and 270 = West.
+
+        Make sure the RotateEnabled is set to true before trying to change the map heading.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetHeading(System.Double,System.Boolean)">
+      <summary>
+        Sets the directional heading of the map as well as a bool indicating whether to animate the heading change. The heading is represented in geometric degrees with 0 or 360 = North, 90 = East, 180 = South, and 270 = West.
+
+        Make sure the RotateEnabled is set to true before trying to change the map heading.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.Location)">
+      <summary>
+        Sets the map view using the specified center location. The view change will be animated.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.Location,System.Double)">
+      <summary>
+        Sets the map view using the specified center location and zoom level. The view change will be animated.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.Location,System.Boolean)">
+      <summary>
+        Sets the map view using the specified center location as well as a bool indicating whether to animate the view change.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.Location,System.Double,System.Double)">
+      <summary>
+        Sets the map view using the specified center location, zoom level, and heading. The view change will be animated.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.Location,System.Double,System.Boolean)">
+      <summary>
+        Sets the map view using the specified center location and zoom level as well as a bool indicating whether to animate the view change.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.Location,System.Double,System.Double,System.Boolean)">
+      <summary>
+        Sets the map view using the specified center location, zoom level, and heading and specifies whether to animate the view change.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.LocationRect)">
+      <summary>
+        Sets the map view using the specified geographical region.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetView(Bing.Maps.LocationRect,System.Boolean)">
+      <summary>
+        Sets the map view using the specified geographical region and specifies whether to animate the view change.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetZoomLevel(System.Double)">
+      <summary>
+        Sets the zoom level of the map view to the specified value.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetZoomLevel(System.Double,System.Boolean)">
+      <summary>
+        Sets the zoom level of the map view to the specified value and indicates whether to animate the zoom change.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.SetZoomLevelAroundPoint(System.Double,Windows.Foundation.Point,System.Boolean)">
+      <summary>
+        Sets the zoom level of the map view to the specified value while maintaining the screen position of the given point, as well as setting a bool indicating whether to animate the zoom change.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.TryLocationToPixel(Bing.Maps.Location,Windows.Foundation.Point)">
+      <summary>
+        Returns a bool indicating whether the specified location was successfully converted to a map screen pixel. This method will work on locations that are not currently in view and will return values outside of the visible map area in the range (0,0) to (ActualWidth,ActualHeight).
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.Map.TryPixelToLocation(Windows.Foundation.Point,Bing.Maps.Location)">
+      <summary>
+        Returns a bool indicating whether the specified point was successfully converted to a location. This method will work on locations that are not currently in view.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.CopyrightChanged">
+      <summary>
+        Occurs when the copyright of the map changes.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.PropertyChanged">
+      <summary>
+        Occurs when a map property changes.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.TargetViewChanged">
+      <summary>
+        Occurs when the view towards which the map is navigating changes.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.TileDownloadCompleted">
+      <summary>
+        Occurs when all of the map tiles of the map view have downloaded.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.ViewChanged">
+      <summary>
+        Occurs when the map view changes. This event is raised for every frame of the map view change.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.MapStyleChanged">
+      <summary>
+        Occurs when the map style changes. This event is raised for every frame of the map view change.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.ViewChangeEnded">
+      <summary>
+        Occurs when the map view is done changing. This event occurs when a view is the same for one frame of a map view change.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.ViewChangeStarted">
+      <summary>
+        Occurs when the map view starts changing.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.PointerMoved_Beta">
+      <summary>
+        Use instead of the PointerMoved event in Beta release only. Occurs when a pointer moves while the pointer remains within the hit test area of the map.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.PointerPressed_Beta">
+      <summary>
+        Use instead of the PointerPressed event in Beta release only. Occurs when the pointer device initiates a Press action within the map.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.PointerReleased_Beta">
+      <summary>
+        Use instead of the PointerReleased event in Beta release only. Occurs when the pointer device that previously initiated a Press action is released, while within the map.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.PointerCanceled_Beta">
+      <summary>
+        Use instead of the PointerCanceled event in Beta release only. Occurs when a pointer that made contact abnormally loses contact.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.Map.DoubleTapped_Beta">
+      <summary>
+        Use instead of the DoubleTapped event in Beta release only. Occurs when an otherwise unhandled DoubleTap interaction occurs over the hit test area of the map.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapLayer">
+      <summary>Represents a map layer, which can contain elements positioned on the map. Map layers can be nested. This class inherits from Windows.UI.Xaml.Controls.Control.Panel.</summary>
+    </member>
+    <member name="M:Bing.Maps.MapLayer.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapLayer"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapLayer.PositionAnchorProperty">
+      <summary>
+        Gets the PositionAnchor dependency property.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapLayer.PositionProperty">
+      <summary>
+        Gets the Position dependency property.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapLayer.GetPosition(Windows.UI.Xaml.DependencyObject)">
+      <summary>
+        Returns the position of an element in the map layer.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapLayer.GetPositionAnchor(Windows.UI.Xaml.DependencyObject)">
+      <summary>
+        Returns the position anchor of an element in the map layer. The position anchor is the point on the element that is anchored to the position on the layer.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapLayer.SetPosition(Windows.UI.Xaml.DependencyObject,Bing.Maps.Location)">
+      <summary>
+        Sets the position of an element in the map layer.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapLayer.SetPositionAnchor(Windows.UI.Xaml.DependencyObject,Windows.Foundation.Point)">
+      <summary>
+        Sets the position anchor of an element in the map layer. The position anchor is the point on the element that is anchored to the position on the layer.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapMultiPoint">
+      <summary>
+        Do not instantiate or inherit from this class directly. Use the derived <see cref="T:Bing.Maps.MapPolygon"></see> and <see cref="T:Bing.Maps.MapPolyline"></see> classes.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapMultiPoint.Locations">
+      <summary>
+        Gets or sets the locations that define the shape. 
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapMultiPoint.#ctor">
+      <summary>
+        Do not instantiate or inherit from this class directly. Use the derived <see cref="T:Bing.Maps.MapPolygon"></see> and <see cref="T:Bing.Maps.MapPolyline"></see> classes.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapPolygon">
+      <summary>
+        Represents a polygon on the map. This class inherits from <see cref="T:Bing.Maps.MapMultiPoint"></see>.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapPolygon.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapPolygon"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolygon.FillColor">
+      <summary>
+        Gets or sets the color to use to fill the polygon.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolygon.Locations">
+      <summary>
+        Gets or sets the locations that define the shape.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolygon.Visible">
+      <summary>
+        Gets or sets whether the shape is shown on the map. To hide the shape, set this property to false.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapPolyline">
+      <summary>
+        Represents a polyline on the map. This class inherits from <see cref="T:Bing.Maps.MapMultiPoint"></see>.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolyline.Color">
+      <summary>
+        Gets or sets the color to use to fill the polyline.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolyline.Locations">
+      <summary>
+        Gets or sets the locations that define the shape.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolyline.Visible">
+      <summary>
+        Gets or sets whether the shape is shown on the map. To hide the shape, set this property to false.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapPolyline.Width">
+      <summary>
+        Gets or sets the width of the polyline, in pixels.
+      </summary>
+    </member>
+    <member name="E:Bing.Maps.MapShape.Tapped">
+      <summary>
+        Occurs when an otherwise unhandled Tap action occurs over a hit test area of this shape.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapPolyline.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapPolyline"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapShape">
+      <summary>
+        Do not instantiate or inherit from this class directly. Use the derived <see cref="T:Bing.Maps.MapPolygon"></see> and <see cref="T:Bing.Maps.MapPolyline"></see> classes.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapShape.#ctor">
+      <summary>
+        Do not instantiate or inherit from this class directly. Use the derived <see cref="T:Bing.Maps.MapPolygon"></see> and <see cref="T:Bing.Maps.MapPolyline"></see> classes.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapShape.Visible">
+      <summary>
+        Gets or sets whether the shape is shown on the map. To hide the shape, set this property to false.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapShapeCollection">
+      <summary>
+        Contains a collection of map shapes, such as <see cref="T:Bing.Maps.MapPolygon"></see> and <see cref="T:Bing.Maps.MapPolyline"></see>.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapShapeCollection.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapShapeCollection"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapShapeLayer">
+      <summary>
+        Represents a layer that contains shapes, such as<see cref="T:Bing.Maps.MapPolygon"></see> and
+        <see cref="T:Bing.Maps.MapPolyline"></see>.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapShapeLayer.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapShapeLayer"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapShapeLayer.Shapes">
+      <summary>
+        Gets or sets the collection of shapes within the layer.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapShapeLayer.Visible">
+      <summary>
+        Gets or sets whether the shapes in the layer are shown on the map.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapShapeLayer.ZIndex">
+      <summary>
+        Gets or sets the z-index of the shape layer.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapShapeLayerCollection">
+      <summary>Defines the type of a map shape.</summary>
+    </member>
+    <member name="M:Bing.Maps.MapShapeLayerCollection.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapShapeLayerCollection"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapStyleChangedEventArgs">
+      <summary>
+        Contains the arguments for the MapStyleChanged event of the <see cref="T:Bing.Maps.Map"></see> class.
+      </summary>
+   </member>
+    <member name="M:Bing.Maps.MapStyleChangedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapShapeLayerCollection"></see> class.
+      </summary>
+    </member>
+  <member name="T:Bing.Maps.MapTileLayer">
+      <summary>Represents a map tile layer.</summary>
+    </member>
+    <member name="M:Bing.Maps.MapTileLayer.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapTileLayer"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapTileLayer.Opacity">
+      <summary>
+        Gets or sets the opacity of the tile layer, defined by a double between 0 (not visible) and 1.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapTileLayer.TileSource">
+      <summary>
+        Gets or sets the URL that defines the source of the tiles.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapTileLayer.Visible">
+      <summary>
+        Gets or sets whether the tile layer is shown.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.MapTileLayer.ZIndex">
+      <summary>
+        Gets or sets the z-index of the tile layer with respect to other items on the map.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapTileLayerCollection">
+      <summary>
+        Contains a collection of <see cref="T:Bing.Maps.MapTileLayer"></see> objects.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.MapTileLayerCollection.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapTileLayerCollection"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapType">
+      <summary>Defines the type or style of the map.</summary>
+    </member>
+    <member name="F:Bing.Maps.MapType.Road">
+      <summary>The map displays road imagery.</summary>
+    </member>
+    <member name="F:Bing.Maps.MapType.Aerial">
+      <summary>The map displays aerial imagery.</summary>
+    </member>
+    <member name="F:Bing.Maps.MapType.Birdseye">
+      <summary>The map displays bird's eye imagery.</summary>
+    </member>
+    <member name="T:Bing.Maps.MapUIElementCollection">
+      <summary>Contains a collection of <see cref="T:Windows.UI.Xaml.UIElement"></see> objects.</summary>
+    </member>
+    <member name="M:Bing.Maps.MapUIElementCollection.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.MapUIElementCollection"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.PreloadArea">
+      <summary>Defines how much map data beyond the current view to preload.</summary>
+    </member>
+    <member name="F:Bing.Maps.PreloadArea.None">
+      <summary>
+        Do not preload any data.
+      </summary>
+    </member>
+    <member name="F:Bing.Maps.PreloadArea.Small">
+      <summary>
+        Preload a small amount of data.
+      </summary>
+    </member>
+    <member name="F:Bing.Maps.PreloadArea.Medium">
+      <summary>
+        Preload a medium amount of data.
+      </summary>
+    </member>
+    <member name="F:Bing.Maps.PreloadArea.Large">
+      <summary>
+        Preload a large amount of data.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.Pushpin">
+      <summary>Represents a pushpin on the map. Inherits from Windows.UI.Xaml.Controls.Control.</summary>
+    </member>
+    <member name="M:Bing.Maps.Pushpin.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.Pushpin"></see> class.
+      </summary>
+    </member>
+    <member name="P:Bing.Maps.Pushpin.Text">
+      <summary>
+        Gets or sets the text for a pushpin.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.StringToLocationConverter">
+      <summary>
+        Implements an interface that converts string values to Location objects for data binding. This class implements Windows.UI.Xaml.Data.IValueConverter.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.StringToLocationConverter.#ctor">
+      <summary>
+        Initializes a new instance of the StringToLocationConverter class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.StringToLocationConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+      <summary>
+        Converts a Location object to a string.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.StringToLocationConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+      <summary>
+        Converts a string to a Location object.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.TargetViewChangedEventArgs">
+      <summary>
+        Contains the arguments for the TargetViewChanged event of the <see cref="T:Bing.Maps.Map"></see> Class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.TargetViewChangedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.TargetViewChangedEventArgs"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.TileDownloadCompletedEventArgs">
+      <summary>
+        Contains the arguments for the TileDownloadCompleted event of the <see cref="T:Bing.Maps.Map"></see> Class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.TileDownloadCompletedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.TileDownloadCompletedEventArgs"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.ViewChangedEventArgs">
+      <summary>
+        Contains the arguments for the ViewChanged event of the <see cref="T:Bing.Maps.Map"></see> Class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.ViewChangedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.ViewChangedEventArgs"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.ViewChangeEndedEventArgs">
+      <summary>
+        Contains the arguments for the ViewChangeEnded event of the <see cref="T:Bing.Maps.Map"></see> Class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.ViewChangeEndedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.ViewChangedEndedEventArgs"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.ViewChangeStartedEventArgs">
+      <summary>
+        Contains the arguments for the ViewChangeStarted event of the <see cref="T:Bing.Maps.Map"></see> Class.
+      </summary>
+    </member>
+    <member name="M:Bing.Maps.ViewChangeStartedEventArgs.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:Bing.Maps.ViewChangeStartedEventArgs"></see> class.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.PushpinAutomationPeer">
+      <summary>
+        Exposes a Pushpin control instance to UI automation.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MapAutomationPeer">
+      <summary>
+        Exposes a Map control instance to UI automation.
+      </summary>
+    </member>
+    <member name="T:Bing.Maps.MessagePanelAutomationPeer">
+      <summary>
+        Exposes a MessagePanel control instance to UI automation.
+      </summary>
+    </member>
+  </members>
+</doc>
